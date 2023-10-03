@@ -54,7 +54,7 @@ function handleTurn(event){
 
 function getWinner(){
     let winner = null;
-    winningCombos.forEach(function(combo, index) {
+    winingCombos.forEach(function(combo, index) {
         if (board[combo[0]] && board[combo[0]] == board[combo[1]] && board[combo[0]] === board[combo[2]]) 
         {winner = board[combo[0]];}
     })
