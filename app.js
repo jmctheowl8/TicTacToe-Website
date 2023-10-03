@@ -2,7 +2,7 @@
 
 
 /*----- app's state (variables) -----*/
-
+let board;
 
 
 /*----- cached element references -----*/
@@ -15,3 +15,16 @@
 
 
 /*----- functions -----*/
+function init(){
+    board=[
+        '','','',
+        '','','',
+        '','',''
+    ];
+};
+
+function render(){
+    board.forEach(function(mark,index){
+        console.log(mark, index);        
+    });
+};
