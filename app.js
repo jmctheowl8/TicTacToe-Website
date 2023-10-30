@@ -73,4 +73,4 @@ function App() {
         </div>
     )
 }
-ReactDOM.render(<App />, root)
+ReactDOM.render(<App />, root);
